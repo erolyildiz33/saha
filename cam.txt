@@ -1,0 +1,18 @@
+7e9d48491673b6e1-10
+4a116beebd818415 -11
+
+
+
+ffmpeg -i rtsp://192.168.1.11:554/h265/ch1/main/av_stream -b 900k -vcodec copy -r 60 -map 0 -f segment -segment_time 60  -strftime 1 "Selo_%d%m%Y_%H%M.mp4"
+
+
+ffmpeg -i rtsp://176.40.232.95:554/h265/ch1/main/av_stream -b 900k -vcodec copy -r 60 -map 0 -f segment -segment_time 60  -strftime 1 "Selo_%d%m%Y_%H%M.mp4"
+
+
+yildiz853093103@ttnet
+
+4iYVtc8N
+
+
+
+08505322816
